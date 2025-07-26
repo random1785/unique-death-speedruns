@@ -9,6 +9,7 @@ team modify a color reset
 difficulty easy
 gamerule keepInventory false
 gamerule showDeathMessages false
+function a:zzzlocbar
 scoreboard objectives add score dummy
 scoreboard objectives add death deathCount
 scoreboard objectives add repeat trigger
