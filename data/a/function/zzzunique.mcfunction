@@ -1,4 +1,4 @@
-tellraw @a {"color":"aqua","bold":true,"text":"You can still use the following death messages:"}
+tellraw @a[scores={unique=1..}] {"color":"aqua","bold":true,"text":"You can still use the following death messages:"}
 tellraw @a[scores={ab=17,unique=1..}] {"text":"[<player> was shot by <mob>]","color":"aqua","hover_event":{"action":"show_text","value":{"text":"<player> was shot by <mob>\nDie to a mob that shoots a projectile","color":"gold"}}}
 tellraw @a[scores={ad=17,unique=1..}] {"text":"[<player> was pricked to death]","color":"aqua","hover_event":{"action":"show_text","value":{"text":"<player> was pricked to death\nDie to a cactus without having taken damage from a mob within 5 seconds","color":"gold"}}}
 tellraw @a[scores={ae=17,unique=1..}] {"text":"[<player> walked into a cactus while trying to escape <mob>]","color":"aqua","hover_event":{"action":"show_text","value":{"text":"<player> walked into a cactus while trying to escape <mob>\nDie to a cactus having taken damage from a mob within 5 seconds","color":"gold"}}}
