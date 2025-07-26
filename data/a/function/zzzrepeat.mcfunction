@@ -1,4 +1,4 @@
-tellraw @a {"color":"red","bold":true,"text":"You have already used the following death messages:"}
+tellraw @a[scores={repeat=1..}] {"color":"red","bold":true,"text":"You have already used the following death messages:"}
 tellraw @a[scores={aa=69..,repeat=1..}] {"text":"[<player> was squashed by a falling anvil]","color":"red","hover_event":{"action":"show_text","value":{"text":"<player> was squashed by a falling anvil\nDie to dropping an anvil on your head","color":"gold"}}}
 tellraw @a[scores={ab=69..,repeat=1..}] {"text":"[<player> was shot by <mob>]","color":"red","hover_event":{"action":"show_text","value":{"text":"<player> was shot by <mob>\nDie to a mob that shoots a projectile","color":"gold"}}}
 tellraw @a[scores={ac=69..,repeat=1..}] {"text":"[<player> was killed by [Intentional Game Design]]","color":"red","hover_event":{"action":"show_text","value":{"text":"<player> was killed by [Intentional Game Design]\nDie to either a bed in the nether or respawn anchor in the overworld","color":"gold"}}}
