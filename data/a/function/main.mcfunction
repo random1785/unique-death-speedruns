@@ -38,6 +38,8 @@ tellraw @a [{"bold":true,"color":"red","underline":true,"text":"Unique "},{"text
 
 # create spawn platform
 schedule function a:zzzspawn 5t
+schedule function a:zzzcheck 6t
+schedule function a:zzzcheck1 10t
 execute in the_nether run forceload add -13 -14 25 24
 forceload add -1 -1 0 0
 place template a:lobbyoverworld1 -12 295 -14
