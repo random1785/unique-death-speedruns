@@ -1,4 +1,5 @@
 # unique-death-speedruns
+(currently abandoned, so not going to be ported. works on 1.21.5 i believe?)
 All the features of [death speedrun](https://github.com/random1785/death-speedrun), but with a twist: no player can get the same death message twice!
 
 ## Features:
